@@ -113,6 +113,6 @@ nav{
 #imagem1{
     height: 90%;
     position: absolute;
-    bottom: 0px;
-    right: 200px;
+    bottom: 0%;
+    margin-left: 52%;
 }
