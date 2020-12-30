@@ -16,8 +16,18 @@ body{
     padding: 15px 20px;
 }
 
-#cart:hover{
+.cart2{
+    width: 25px;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin-top: 5px;
+    margin-left: -65px;
+    opacity: 0;
+}
+
+.cart2:hover{
     background-color: rgb(211, 0, 0);
+    opacity: 1;
 }
 
 #logo{
