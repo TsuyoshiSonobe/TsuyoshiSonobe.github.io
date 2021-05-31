@@ -8,7 +8,19 @@ function updateClock(){
         min = now.getMinutes(),
         sec = now.getSeconds(),
         pe = "AM";
+    
+    var message;
 
+
+        if(hou >= 0 && hou < 6)
+            message = "Go sleep zZzZzZZ\nTomorrow is a new day :)";
+        else if(hou < 12)
+            message = "Espero que você tenha um bom dia :)";
+        else if(hou < 18)
+            message = "Boa tarde! Vai dar tudo certo :)"
+        else{
+            message = "Relaxa, daqui a pouco tá na hora de descansar :)"
+        }
         if(hou == 0){
             hou = 12;
         }
@@ -16,6 +28,8 @@ function updateClock(){
             hou = hou - 12;
             pe = "PM";
         }
+
+        document.getElementById('msg').innerText = message;
         
         Number.prototype.pad = function(digits){
             for(var n = this.toString(); n.length < digits; n = 0 + n);
