@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.start{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00a5ba;
+}
+
+.end{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00a5ba;
+}
+
