@@ -14,7 +14,7 @@ body{
 .datetime{
     color: #ffffff;
     background: #10101E;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     width: 340px;
     padding: 15px 10px;
     border: 3px solid #2e94e3;
@@ -31,9 +31,9 @@ body{
 
 .date{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .time{
@@ -45,18 +45,19 @@ body{
 
 .time span:not(:last-child){
     position: relative;
-    margin: 0 6px;
-    font-weight: 600;
+    margin: 0 5px;
+    font-weight: 500;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .time span:last-child{
     background: #2e94e3;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     margin-top: 10px;
+    margin-left: 5px;
     padding: 0 5px;
     border-radius: 3px;
 }
