@@ -1,2 +1,2 @@
 # TsuyoshiSonobe.github.io
-Repositório para testar a publicação de um site utilizando o GitHub
+Repositório para guardar algumas experiências com html, css e js
