@@ -11,13 +11,23 @@ body{
     background: #2f3437;
 }
 
+.quote{
+    background: #363b3e;
+    width: 90%;
+    padding: 15px 10px;
+    border: 3px solid #363b3e;
+    border-radius: 5px;
+}
+
 .message{
-    color: #ffffff;
+    color: #e7e8e8;
+    border-left: 4px solid #e7e8e8;
+    padding: 0px 0px 0px 10px;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
-    margin-bottom: 40px;
+    margin: 40px 0px 40px 50px;
     letter-spacing: -1px;
 }
