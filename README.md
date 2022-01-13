@@ -2,7 +2,7 @@
 Repositório para guardar alguns pequenos projetos envolvendo html, css e js
 
 <p align="center">
-	<img width="470" src="HDCsite/images/HdC.png">
+	<img src="HDCsite/images/HdC.png">
 </p>
 
 ## Testando link
